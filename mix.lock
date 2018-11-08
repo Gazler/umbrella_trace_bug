@@ -1,0 +1,9 @@
+%{
+  "counters": {:hex, :counters, "0.2.0", "ef00f33404fdd9bd233f9b7966233222469e4560dbe1c712ea2e1ab63bb8fefd", [:mix, :rebar3], [], "hexpm"},
+  "ctx": {:hex, :ctx, "0.5.0", "78e0f16712e12d707a7f34277381b8e193d7c71eaa24d37330dc02477c09eda5", [:rebar3], [], "hexpm"},
+  "jsx": {:hex, :jsx, "2.9.0", "d2f6e5f069c00266cad52fb15d87c428579ea4d7d73a33669e12679e203329dd", [:mix, :rebar3], [], "hexpm"},
+  "open_census": {:git, "git@github.com:alignd/OpenCensus.git", "73338a8a477bceb65e0a221289b87a230683a86e", []},
+  "opencensus": {:hex, :opencensus, "0.6.0", "90c1078a3ba18817d6445b3f79e7515122823198fedd5a880f74d69c205d8b90", [:rebar3], [{:counters, "~> 0.2", [hex: :counters, repo: "hexpm", optional: false]}, {:ctx, "~> 0.4", [hex: :ctx, repo: "hexpm", optional: false]}, {:jsx, "~> 2.9", [hex: :jsx, repo: "hexpm", optional: false]}, {:wts, "~> 0.3", [hex: :wts, repo: "hexpm", optional: false]}], "hexpm"},
+  "rfc3339": {:hex, :rfc3339, "0.9.0", "2075653dc9407541c84b1e15f8bda2abe95fb17c9694025e079583f2d19c1060", [:mix, :rebar], [], "hexpm"},
+  "wts": {:hex, :wts, "0.3.0", "5cdf22c775cb1ebae24c326a5db6074d753c42f4bd12a9aa47cc62d3e2c71ad1", [:rebar3], [{:rfc3339, "~>0.9.0", [hex: :rfc3339, repo: "hexpm", optional: false]}], "hexpm"},
+}
